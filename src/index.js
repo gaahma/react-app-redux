@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import {Provider} from 'react-redux';
 import {createStore} from 'redux';
 import chat from './reducers';
-
+    
 const store = createStore(chat);
 const element = document.getElementById('root');
 const app = (
